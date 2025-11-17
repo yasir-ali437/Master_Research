@@ -1,0 +1,11 @@
+Epoch 1/20:   0%|                                                                                | 0/46 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 490, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 469, in main
+    loss, terms = loss_fn(fused, mri, pet, mask, edge_pred)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "train_YCbCr_Outside_penalty.py", line 392, in forward
+    loss_total)
+NameError: name 'loss_total' is not defined

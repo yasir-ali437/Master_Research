@@ -1,0 +1,19 @@
+{"time":"2025-11-11T11:41:16.177462593Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-11-11T11:41:16.177497215Z","level":"INFO","msg":"created symlink","path":"/home/yasir/Summer_Research/Autoencoder_Ablation_Study_RGB_Two_Stage/wandb/run-20251111_114116-2hifoi9f/logs/debug-core.log"}
+{"time":"2025-11-11T11:41:16.428318607Z","level":"INFO","msg":"created new stream","id":"2hifoi9f"}
+{"time":"2025-11-11T11:41:16.428389094Z","level":"INFO","msg":"stream: started","id":"2hifoi9f"}
+{"time":"2025-11-11T11:41:16.428427578Z","level":"INFO","msg":"writer: Do: started","stream_id":"2hifoi9f"}
+{"time":"2025-11-11T11:41:16.428457619Z","level":"INFO","msg":"sender: started","stream_id":"2hifoi9f"}
+{"time":"2025-11-11T11:41:16.428576135Z","level":"INFO","msg":"handler: started","stream_id":"2hifoi9f"}
+{"time":"2025-11-11T11:41:16.835202611Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-11-11T11:58:40.190109207Z","level":"INFO","msg":"stream: closing","id":"2hifoi9f"}
+{"time":"2025-11-11T11:58:40.190180939Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-11-11T11:58:40.191708126Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-11-11T11:58:40.474750245Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-11-11T11:58:40.474812782Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-11-11T11:58:40.474826798Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-11-11T11:58:41.09898426Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-11T11:58:41.370380993Z","level":"INFO","msg":"handler: closed","stream_id":"2hifoi9f"}
+{"time":"2025-11-11T11:58:41.370449659Z","level":"INFO","msg":"sender: closed","stream_id":"2hifoi9f"}
+{"time":"2025-11-11T11:58:41.370432402Z","level":"INFO","msg":"writer: Close: closed","stream_id":"2hifoi9f"}
+{"time":"2025-11-11T11:58:41.370593881Z","level":"INFO","msg":"stream: closed","id":"2hifoi9f"}

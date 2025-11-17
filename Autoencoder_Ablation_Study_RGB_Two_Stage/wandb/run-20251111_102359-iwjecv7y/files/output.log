@@ -1,0 +1,7 @@
+Epoch 1/20:   0%|                                                                                | 0/46 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 404, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 394, in main
+    pbar.set_postfix(loss=f"{running/(i+1):.4f}", ssim_m=f"{terms['ssim_m']:.3f}", grad=f"{terms['grad']:.3f}")
+ValueError: Unknown format code 'f' for object of type 'str'

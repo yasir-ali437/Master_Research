@@ -1,0 +1,1861 @@
+Epoch 1/20:  33%|██████████▍                     | 15/46 [00:04<00:03,  8.95it/s, grad=0.223, loss=2.7574, ssim_m=0.616]
+
+Outside-cortex penalty: 2.6908 | Total loss: 2.6908
+
+Outside-cortex penalty: 2.9096 | Total loss: 2.9096
+
+Outside-cortex penalty: 2.8335 | Total loss: 2.8335
+
+Outside-cortex penalty: 2.7517 | Total loss: 2.7517
+
+Outside-cortex penalty: 2.7553 | Total loss: 2.7553
+
+Outside-cortex penalty: 2.9584 | Total loss: 2.9584
+
+Outside-cortex penalty: 2.7199 | Total loss: 2.7199
+
+Outside-cortex penalty: 2.6738 | Total loss: 2.6738
+
+Outside-cortex penalty: 2.4686 | Total loss: 2.4686
+
+Outside-cortex penalty: 2.6815 | Total loss: 2.6815
+
+Outside-cortex penalty: 2.6512 | Total loss: 2.6512
+
+Outside-cortex penalty: 2.9360 | Total loss: 2.9360
+
+Outside-cortex penalty: 2.9618 | Total loss: 2.9618
+
+Outside-cortex penalty: 2.5718 | Total loss: 2.5718
+
+Outside-cortex penalty: 2.7971 | Total loss: 2.7971
+
+Outside-cortex penalty: 2.6105 | Total loss: 2.6105
+
+Outside-cortex penalty: 2.8804 | Total loss: 2.8804
+
+Outside-cortex penalty: 2.7764 | Total loss: 2.7764
+
+Outside-cortex penalty: 2.7935 | Total loss: 2.7935
+
+Outside-cortex penalty: 2.6020 | Total loss: 2.6020
+
+Outside-cortex penalty: 2.8444 | Total loss: 2.8444
+
+Outside-cortex penalty: 3.0431 | Total loss: 3.0431
+
+Outside-cortex penalty: 2.5765 | Total loss: 2.5765
+
+Outside-cortex penalty: 2.6417 | Total loss: 2.6417
+
+Outside-cortex penalty: 2.6559 | Total loss: 2.6559
+
+Outside-cortex penalty: 2.7304 | Total loss: 2.7304
+
+Outside-cortex penalty: 2.5708 | Total loss: 2.5708
+
+Outside-cortex penalty: 2.5859 | Total loss: 2.5859
+
+Outside-cortex penalty: 2.4299 | Total loss: 2.4299
+
+Outside-cortex penalty: 2.5430 | Total loss: 2.5430
+
+Outside-cortex penalty: 2.8005 | Total loss: 2.8005
+
+Outside-cortex penalty: 2.5210 | Total loss: 2.5210
+
+Outside-cortex penalty: 2.7367 | Total loss: 2.7367
+
+Outside-cortex penalty: 2.3912 | Total loss: 2.3912
+
+Outside-cortex penalty: 2.3326 | Total loss: 2.3326
+
+Outside-cortex penalty: 2.1922 | Total loss: 2.1922
+
+Outside-cortex penalty: 2.1339 | Total loss: 2.1339
+
+Outside-cortex penalty: 2.2240 | Total loss: 2.2240
+
+Outside-cortex penalty: 2.0014 | Total loss: 2.0014
+
+Outside-cortex penalty: 1.7393 | Total loss: 1.7393
+
+Outside-cortex penalty: 1.6233 | Total loss: 1.6233
+
+Outside-cortex penalty: 1.7993 | Total loss: 1.7993
+
+Outside-cortex penalty: 1.4727 | Total loss: 1.4727
+
+Outside-cortex penalty: 1.3008 | Total loss: 1.3008
+
+Outside-cortex penalty: 1.5998 | Total loss: 1.5998
+
+Outside-cortex penalty: 1.8956 | Total loss: 1.8956
+Epoch 2/20:  33%|██████████▍                     | 15/46 [00:01<00:02, 13.44it/s, grad=0.246, loss=1.5195, ssim_m=0.945]
+
+Outside-cortex penalty: 1.8075 | Total loss: 1.8075
+
+Outside-cortex penalty: 1.6126 | Total loss: 1.6126
+
+Outside-cortex penalty: 1.5414 | Total loss: 1.5414
+
+Outside-cortex penalty: 1.4521 | Total loss: 1.4521
+
+Outside-cortex penalty: 1.4677 | Total loss: 1.4677
+
+Outside-cortex penalty: 1.2424 | Total loss: 1.2424
+
+Outside-cortex penalty: 1.4854 | Total loss: 1.4854
+
+Outside-cortex penalty: 1.3887 | Total loss: 1.3887
+
+Outside-cortex penalty: 1.7509 | Total loss: 1.7509
+
+Outside-cortex penalty: 1.6177 | Total loss: 1.6177
+
+Outside-cortex penalty: 1.3465 | Total loss: 1.3465
+
+Outside-cortex penalty: 1.2823 | Total loss: 1.2823
+
+Outside-cortex penalty: 1.4532 | Total loss: 1.4532
+
+Outside-cortex penalty: 1.6658 | Total loss: 1.6658
+
+Outside-cortex penalty: 1.6784 | Total loss: 1.6784
+
+Outside-cortex penalty: 1.6450 | Total loss: 1.6450
+
+Outside-cortex penalty: 1.4337 | Total loss: 1.4337
+
+Outside-cortex penalty: 1.5656 | Total loss: 1.5656
+
+Outside-cortex penalty: 1.2689 | Total loss: 1.2689
+
+Outside-cortex penalty: 1.5977 | Total loss: 1.5977
+
+Outside-cortex penalty: 1.5156 | Total loss: 1.5156
+
+Outside-cortex penalty: 1.3942 | Total loss: 1.3942
+
+Outside-cortex penalty: 1.3452 | Total loss: 1.3452
+
+Outside-cortex penalty: 1.5300 | Total loss: 1.5300
+
+Outside-cortex penalty: 1.7037 | Total loss: 1.7037
+
+Outside-cortex penalty: 1.3679 | Total loss: 1.3679
+
+Outside-cortex penalty: 1.5403 | Total loss: 1.5403
+
+Outside-cortex penalty: 1.4135 | Total loss: 1.4135
+
+Outside-cortex penalty: 1.3743 | Total loss: 1.3743
+
+Outside-cortex penalty: 1.2230 | Total loss: 1.2230
+
+Outside-cortex penalty: 1.1384 | Total loss: 1.1384
+
+Outside-cortex penalty: 1.8961 | Total loss: 1.8961
+
+Outside-cortex penalty: 1.5785 | Total loss: 1.5785
+
+Outside-cortex penalty: 1.2683 | Total loss: 1.2683
+
+Outside-cortex penalty: 1.3675 | Total loss: 1.3675
+
+Outside-cortex penalty: 1.2471 | Total loss: 1.2471
+
+Outside-cortex penalty: 1.3154 | Total loss: 1.3154
+
+Outside-cortex penalty: 1.0723 | Total loss: 1.0723
+
+Outside-cortex penalty: 1.4987 | Total loss: 1.4987
+
+Outside-cortex penalty: 1.3324 | Total loss: 1.3324
+
+Outside-cortex penalty: 1.3634 | Total loss: 1.3634
+
+Outside-cortex penalty: 1.3866 | Total loss: 1.3866
+
+Outside-cortex penalty: 1.1496 | Total loss: 1.1496
+
+Outside-cortex penalty: 1.1322 | Total loss: 1.1322
+
+Outside-cortex penalty: 1.4149 | Total loss: 1.4149
+
+Outside-cortex penalty: 1.1272 | Total loss: 1.1272
+Epoch 3/20:  33%|██████████▍                     | 15/46 [00:01<00:02, 12.73it/s, grad=1.766, loss=0.0707, ssim_m=0.987]
+
+Outside-cortex penalty: 1.0700 | Total loss: 1.0700
+
+Outside-cortex penalty: -0.0090 | Total loss: -0.0090
+
+Outside-cortex penalty: -0.0002 | Total loss: -0.0002
+
+Outside-cortex penalty: -0.0000 | Total loss: -0.0000
+
+Outside-cortex penalty: -0.0000 | Total loss: -0.0000
+
+Outside-cortex penalty: -0.0000 | Total loss: -0.0000
+
+Outside-cortex penalty: -0.0000 | Total loss: -0.0000
+
+Outside-cortex penalty: -0.0000 | Total loss: -0.0000
+
+Outside-cortex penalty: -0.0000 | Total loss: -0.0000
+
+Outside-cortex penalty: -0.0000 | Total loss: -0.0000
+
+Outside-cortex penalty: -0.0000 | Total loss: -0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 4/20:  33%|██████████▍                     | 15/46 [00:01<00:02, 13.49it/s, grad=1.764, loss=0.0000, ssim_m=0.956]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 5/20:  33%|██████████▍                     | 15/46 [00:01<00:02, 15.21it/s, grad=1.789, loss=0.0000, ssim_m=0.980]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 6/20:  33%|██████████▍                     | 15/46 [00:01<00:02, 15.20it/s, grad=1.773, loss=0.0000, ssim_m=0.995]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 7/20:  33%|██████████▍                     | 15/46 [00:01<00:02, 12.68it/s, grad=1.777, loss=0.0000, ssim_m=0.981]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 8/20:  33%|██████████▍                     | 15/46 [00:01<00:02, 15.40it/s, grad=1.772, loss=0.0000, ssim_m=0.985]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 9/20:  33%|██████████▍                     | 15/46 [00:01<00:02, 15.31it/s, grad=1.787, loss=0.0000, ssim_m=0.969]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 10/20:  33%|██████████                     | 15/46 [00:01<00:02, 14.38it/s, grad=1.756, loss=0.0000, ssim_m=0.995]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 11/20:  33%|██████████                     | 15/46 [00:01<00:02, 13.05it/s, grad=1.770, loss=0.0000, ssim_m=0.998]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 12/20:  33%|██████████                     | 15/46 [00:01<00:02, 15.35it/s, grad=1.791, loss=0.0000, ssim_m=0.993]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 13/20:  33%|██████████                     | 15/46 [00:01<00:02, 14.81it/s, grad=1.781, loss=0.0000, ssim_m=0.974]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 14/20:  33%|██████████                     | 15/46 [00:01<00:02, 15.41it/s, grad=1.759, loss=0.0000, ssim_m=0.981]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 15/20:  33%|██████████                     | 15/46 [00:01<00:01, 15.54it/s, grad=1.773, loss=0.0000, ssim_m=0.978]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 16/20:  33%|██████████                     | 15/46 [00:01<00:01, 15.62it/s, grad=1.787, loss=0.0000, ssim_m=0.968]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 17/20:  33%|██████████                     | 15/46 [00:01<00:02, 14.87it/s, grad=1.794, loss=0.0000, ssim_m=0.972]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 18/20:  33%|██████████                     | 15/46 [00:01<00:02, 14.51it/s, grad=1.753, loss=0.0000, ssim_m=0.982]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 19/20:  33%|██████████                     | 15/46 [00:01<00:02, 14.94it/s, grad=1.784, loss=0.0000, ssim_m=0.982]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Epoch 20/20:  33%|██████████                     | 15/46 [00:01<00:02, 13.69it/s, grad=1.773, loss=0.0000, ssim_m=0.977]
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+
+Outside-cortex penalty: 0.0000 | Total loss: 0.0000
+Training complete. Checkpoints saved to: ./checkpoints_edgeguided

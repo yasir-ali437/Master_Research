@@ -1,0 +1,21 @@
+Epoch 1/20:   0%|                                                                                | 0/46 [00:04<?, ?it/s]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 542, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 521, in main
+    loss, terms = loss_fn(fused, mri, pet, mask, edge_pred)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "train_YCbCr_Outside_penalty.py", line 429, in forward
+    L_transport_total += self.sinkhorn(y_i, pet_i)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/samples_loss.py", line 283, in forward
+    verbose=self.verbose,
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/sinkhorn_samples.py", line 206, in sinkhorn_tensorized
+    debias=debias,
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/sinkhorn_divergence.py", line 627, in sinkhorn_loop
+    g_bb = damping * softmin(eps, C_yy, (b_log + g_bb / eps).detach())
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/sinkhorn_samples.py", line 72, in softmin_tensorized
+    return -eps * (h_y.view(B, 1, -1) - C_xy / eps).logsumexp(2).view(B, -1)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 64.00 MiB (GPU 0; 10.57 GiB total capacity; 2.43 GiB already allocated; 51.00 MiB free; 2.46 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

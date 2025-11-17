@@ -1,0 +1,12 @@
+Epoch 1/20:   0%|                                                                                | 0/46 [00:02<?, ?it/s]
+PETTTTL :  0.0 1.0
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 531, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 510, in main
+    loss, terms = loss_fn(fused, mri, pet, mask, edge_pred)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "train_YCbCr_Outside_penalty.py", line 420, in forward
+    L_ssim_total += 1 - ssim(y[i:i+1] * mask[i:i+1], mri[i:i+1] * mask[i:i+1], data_range=1.0)
+NameError: name 'ssim' is not defined

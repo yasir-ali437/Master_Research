@@ -1,0 +1,32 @@
+Epoch 1/20: 100%|████████████████████████████████| 46/46 [00:57<00:00,  1.26s/it, grad=0.199, loss=0.1153, ssim_m=0.634]
+Epoch 2/20: 100%|████████████████████████████████| 46/46 [00:46<00:00,  1.01s/it, grad=0.164, loss=0.0557, ssim_m=0.431]
+Epoch 3/20: 100%|████████████████████████████████| 46/46 [00:46<00:00,  1.00s/it, grad=0.141, loss=0.0439, ssim_m=0.341]
+Epoch 4/20: 100%|████████████████████████████████| 46/46 [00:46<00:00,  1.01s/it, grad=0.130, loss=0.0402, ssim_m=0.275]
+Epoch 5/20: 100%|████████████████████████████████| 46/46 [00:46<00:00,  1.01s/it, grad=0.120, loss=0.0367, ssim_m=0.265]
+Epoch 6/20: 100%|████████████████████████████████| 46/46 [00:46<00:00,  1.00s/it, grad=0.124, loss=0.0347, ssim_m=0.250]
+Epoch 7/20: 100%|████████████████████████████████| 46/46 [00:46<00:00,  1.00s/it, grad=0.132, loss=0.0333, ssim_m=0.240]
+Epoch 8/20: 100%|████████████████████████████████| 46/46 [00:46<00:00,  1.01s/it, grad=0.117, loss=0.0319, ssim_m=0.211]
+Epoch 9/20: 100%|████████████████████████████████| 46/46 [00:46<00:00,  1.01s/it, grad=0.134, loss=0.0308, ssim_m=0.222]
+Epoch 10/20:  65%|████████████████████▏          | 30/46 [00:30<00:15,  1.01it/s, grad=0.126, loss=0.0308, ssim_m=0.201]/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/sinkhorn_divergence.py:150: RuntimeWarning: divide by zero encountered in log
+  + [blur ** p]
+Epoch 10/20:  65%|████████████████████▏          | 30/46 [00:30<00:16,  1.02s/it, grad=0.126, loss=0.0308, ssim_m=0.201]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 536, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 515, in main
+    loss, terms = loss_fn(fused, mri, pet, mask, edge_pred)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "train_YCbCr_Outside_penalty.py", line 422, in forward
+    L_transport_total += self.sinkhorn(y_i, pet_i)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/samples_loss.py", line 283, in forward
+    verbose=self.verbose,
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/sinkhorn_samples.py", line 192, in sinkhorn_tensorized
+    x, y, p, blur, reach, diameter, scaling
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/sinkhorn_divergence.py", line 163, in scaling_parameters
+    eps_list = epsilon_schedule(p, diameter, blur, scaling)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/sinkhorn_divergence.py", line 150, in epsilon_schedule
+    + [blur ** p]
+ValueError: Maximum allowed size exceeded

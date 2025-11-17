@@ -1,0 +1,8 @@
+{"time":"2025-10-21T14:26:11.381404198Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-10-21T14:26:11.381425782Z","level":"INFO","msg":"created symlink","path":"/home/yasir/Summer_Research/Autoencoder_Ablation_Study/wandb/run-20251021_142611-xlvu2kux/logs/debug-core.log"}
+{"time":"2025-10-21T14:26:11.649401105Z","level":"INFO","msg":"created new stream","id":"xlvu2kux"}
+{"time":"2025-10-21T14:26:11.649442Z","level":"INFO","msg":"stream: started","id":"xlvu2kux"}
+{"time":"2025-10-21T14:26:11.649469257Z","level":"INFO","msg":"writer: Do: started","stream_id":"xlvu2kux"}
+{"time":"2025-10-21T14:26:11.64950545Z","level":"INFO","msg":"sender: started","stream_id":"xlvu2kux"}
+{"time":"2025-10-21T14:26:11.649555901Z","level":"INFO","msg":"handler: started","stream_id":"xlvu2kux"}
+{"time":"2025-10-21T14:26:17.112257896Z","level":"INFO","msg":"Starting system monitor"}

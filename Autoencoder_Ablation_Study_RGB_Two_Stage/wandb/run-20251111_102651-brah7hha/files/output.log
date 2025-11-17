@@ -1,0 +1,15 @@
+Epoch 1/20:  41%|███████████████████████▉                                  | 19/46 [00:22<00:31,  1.17s/it, loss=0.2689]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 399, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 378, in main
+    loss = loss_fn(fused, mri, pet, mask, edge_pred, epoch)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "train_YCbCr_Outside_penalty.py", line 280, in forward
+    L_ssim += 1 - ssim(y[i:i+1]*mask[i:i+1], mri_i_rgb*mask[i:i+1], data_range=1.0)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/piq/ssim.py", line 53, in ssim
+    _validate_input([x, y], dim_range=(4, 5), data_range=(0, data_range))
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/piq/utils/common.py", line 100, in _validate_input
+    assert data_range[0] <= t.min(), \
+KeyboardInterrupt

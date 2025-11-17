@@ -1,0 +1,19 @@
+{"time":"2025-11-11T11:37:57.775595848Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-11-11T11:37:57.775617006Z","level":"INFO","msg":"created symlink","path":"/home/yasir/Summer_Research/Autoencoder_Ablation_Study_RGB_Two_Stage/wandb/run-20251111_113757-izacfhey/logs/debug-core.log"}
+{"time":"2025-11-11T11:37:58.01545958Z","level":"INFO","msg":"created new stream","id":"izacfhey"}
+{"time":"2025-11-11T11:37:58.015527884Z","level":"INFO","msg":"stream: started","id":"izacfhey"}
+{"time":"2025-11-11T11:37:58.015566544Z","level":"INFO","msg":"writer: Do: started","stream_id":"izacfhey"}
+{"time":"2025-11-11T11:37:58.015599907Z","level":"INFO","msg":"handler: started","stream_id":"izacfhey"}
+{"time":"2025-11-11T11:37:58.01556702Z","level":"INFO","msg":"sender: started","stream_id":"izacfhey"}
+{"time":"2025-11-11T11:37:58.456116505Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-11-11T11:38:06.861518443Z","level":"INFO","msg":"stream: closing","id":"izacfhey"}
+{"time":"2025-11-11T11:38:06.861565091Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-11-11T11:38:06.86255834Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-11-11T11:38:07.069653751Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-11-11T11:38:07.069685381Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-11-11T11:38:07.069693199Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-11-11T11:38:07.69956928Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-11T11:38:07.965421374Z","level":"INFO","msg":"handler: closed","stream_id":"izacfhey"}
+{"time":"2025-11-11T11:38:07.965482486Z","level":"INFO","msg":"sender: closed","stream_id":"izacfhey"}
+{"time":"2025-11-11T11:38:07.965474339Z","level":"INFO","msg":"writer: Close: closed","stream_id":"izacfhey"}
+{"time":"2025-11-11T11:38:07.965569887Z","level":"INFO","msg":"stream: closed","id":"izacfhey"}

@@ -1,0 +1,9 @@
+Epoch 1/20:   0%|                                                                                | 0/46 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 540, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 518, in main
+    fused, edge_pred = model(x)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() missing 2 required positional arguments: 'pet' and 'mask'

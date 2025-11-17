@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 447, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 402, in main
+    model = Fusion_net(input_nc=2, output_nc=1).to(args.device)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 989, in to
+    return self._apply(convert)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 641, in _apply
+    module._apply(fn)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 688, in _apply
+    self._buffers[key] = fn(buf)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 987, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.

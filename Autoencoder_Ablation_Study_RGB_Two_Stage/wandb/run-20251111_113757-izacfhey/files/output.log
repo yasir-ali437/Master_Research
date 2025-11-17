@@ -1,0 +1,25 @@
+Epoch 1/20:   0%|                                                                                | 0/46 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 399, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 377, in main
+    fused, edge_pred = model(mri, pet, mask)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/yasir/Summer_Research/Autoencoder_Ablation_Study_RGB_Two_Stage/model_transport.py", line 96, in forward
+    feats = self.encoder(x_2ch)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/yasir/Summer_Research/Autoencoder_Ablation_Study_RGB_Two_Stage/model_transport.py", line 47, in forward
+    G11 = self.conv1(x_2ch)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/container.py", line 204, in forward
+    input = module(input)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 460, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Given groups=1, weight of size [32, 2, 3, 3], expected input[16, 4, 130, 130] to have 2 channels, but got 4 channels instead

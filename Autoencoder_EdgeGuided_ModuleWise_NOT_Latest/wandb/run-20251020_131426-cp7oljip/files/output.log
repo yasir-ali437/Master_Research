@@ -1,0 +1,38 @@
+Epoch 1/20: 100%|████████████████████████████████| 46/46 [00:28<00:00,  1.61it/s, grad=0.223, loss=0.3239, ssim_m=1.042]
+Epoch 2/20: 100%|████████████████████████████████| 46/46 [00:05<00:00,  8.29it/s, grad=0.237, loss=0.3304, ssim_m=1.038]
+Epoch 3/20: 100%|████████████████████████████████| 46/46 [00:06<00:00,  7.56it/s, grad=0.231, loss=0.3272, ssim_m=1.034]
+Epoch 4/20: 100%|████████████████████████████████| 46/46 [00:05<00:00,  8.18it/s, grad=0.240, loss=0.3271, ssim_m=1.027]
+Epoch 5/20: 100%|████████████████████████████████| 46/46 [00:05<00:00,  8.29it/s, grad=0.238, loss=0.3294, ssim_m=1.018]
+Epoch 6/20: 100%|████████████████████████████████| 46/46 [00:05<00:00,  8.44it/s, grad=0.248, loss=0.3284, ssim_m=1.015]
+Epoch 7/20: 100%|████████████████████████████████| 46/46 [00:05<00:00,  8.15it/s, grad=0.239, loss=0.3275, ssim_m=1.020]
+Epoch 8/20: 100%|████████████████████████████████| 46/46 [00:05<00:00,  8.64it/s, grad=0.234, loss=0.3262, ssim_m=1.018]
+Epoch 9/20: 100%|████████████████████████████████| 46/46 [00:05<00:00,  7.92it/s, grad=0.245, loss=0.3274, ssim_m=1.014]
+Epoch 10/20: 100%|███████████████████████████████| 46/46 [00:05<00:00,  8.23it/s, grad=0.262, loss=0.3269, ssim_m=1.012]
+Epoch 11/20:  89%|███████████████████████████▋   | 41/46 [00:04<00:00, 10.22it/s, grad=0.247, loss=0.3255, ssim_m=1.011]Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7fed836f19e0>
+Traceback (most recent call last):
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1466, in __del__
+    self._shutdown_workers()
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1430, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/data1/yasir/envs/tensor/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/data1/yasir/envs/tensor/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/data1/yasir/envs/tensor/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/data1/yasir/envs/tensor/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+Epoch 11/20:  89%|███████████████████████████▋   | 41/46 [00:04<00:00,  8.37it/s, grad=0.247, loss=0.3255, ssim_m=1.011]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 490, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 469, in main
+    loss, terms = loss_fn(fused, mri, pet, mask, edge_pred)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "train_YCbCr_Outside_penalty.py", line 369, in forward
+    loss_transport = cortex_transport_preserve_loss(Yp, pet, mask, D=dist)
+  File "train_YCbCr_Outside_penalty.py", line 330, in cortex_transport_preserve_loss
+    loss = alpha * outside_term + beta * inside_term + gamma_tv * tv
+KeyboardInterrupt

@@ -1,0 +1,7 @@
+Epoch 1/20:   0%|                                                                                | 0/46 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 404, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 384, in main
+    scaler.scale(loss).backward()
+AttributeError: 'tuple' object has no attribute 'backward'

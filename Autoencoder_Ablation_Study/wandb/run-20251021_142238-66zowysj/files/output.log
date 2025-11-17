@@ -1,0 +1,37 @@
+Epoch 1/20: 100%|████████████████████████████████| 46/46 [02:15<00:00,  2.94s/it, grad=0.196, loss=0.1182, ssim_m=0.617]
+Epoch 2/20:  15%|█████                            | 7/46 [00:17<01:34,  2.43s/it, grad=0.194, loss=0.0702, ssim_m=0.619]Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7fc235274b00>
+Traceback (most recent call last):
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1466, in __del__
+    self._shutdown_workers()
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1430, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/data1/yasir/envs/tensor/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/data1/yasir/envs/tensor/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/data1/yasir/envs/tensor/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/data1/yasir/envs/tensor/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+Epoch 2/20:  15%|█████                            | 7/46 [00:19<01:49,  2.82s/it, grad=0.194, loss=0.0702, ssim_m=0.619]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 542, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 521, in main
+    loss, terms = loss_fn(fused, mri, pet, mask, edge_pred)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "train_YCbCr_Outside_penalty.py", line 429, in forward
+    L_transport_total += self.sinkhorn(y_i, pet_i)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/samples_loss.py", line 283, in forward
+    verbose=self.verbose,
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/sinkhorn_samples.py", line 192, in sinkhorn_tensorized
+    x, y, p, blur, reach, diameter, scaling
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/sinkhorn_divergence.py", line 159, in scaling_parameters
+    diameter = max_diameter(x.view(-1, D), y.view(-1, D))
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/sinkhorn_divergence.py", line 112, in max_diameter
+    diameter = (maxs - mins).norm().item()
+KeyboardInterrupt

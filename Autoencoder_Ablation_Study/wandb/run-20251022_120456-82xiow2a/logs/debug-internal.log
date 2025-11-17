@@ -1,0 +1,19 @@
+{"time":"2025-10-22T12:04:56.824675365Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-10-22T12:04:56.824703429Z","level":"INFO","msg":"created symlink","path":"/home/yasir/Summer_Research/Autoencoder_Ablation_Study/wandb/run-20251022_120456-82xiow2a/logs/debug-core.log"}
+{"time":"2025-10-22T12:04:57.042535948Z","level":"INFO","msg":"created new stream","id":"82xiow2a"}
+{"time":"2025-10-22T12:04:57.042589367Z","level":"INFO","msg":"stream: started","id":"82xiow2a"}
+{"time":"2025-10-22T12:04:57.042617266Z","level":"INFO","msg":"writer: Do: started","stream_id":"82xiow2a"}
+{"time":"2025-10-22T12:04:57.042622786Z","level":"INFO","msg":"sender: started","stream_id":"82xiow2a"}
+{"time":"2025-10-22T12:04:57.042639111Z","level":"INFO","msg":"handler: started","stream_id":"82xiow2a"}
+{"time":"2025-10-22T12:04:57.395026091Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-22T12:21:21.006612746Z","level":"INFO","msg":"stream: closing","id":"82xiow2a"}
+{"time":"2025-10-22T12:21:21.006663893Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-22T12:21:21.007467383Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-22T12:21:21.218519642Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-10-22T12:21:21.218548136Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-10-22T12:21:21.218557097Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-10-22T12:21:22.223334406Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-22T12:21:22.474947819Z","level":"INFO","msg":"handler: closed","stream_id":"82xiow2a"}
+{"time":"2025-10-22T12:21:22.475002453Z","level":"INFO","msg":"sender: closed","stream_id":"82xiow2a"}
+{"time":"2025-10-22T12:21:22.474985256Z","level":"INFO","msg":"writer: Close: closed","stream_id":"82xiow2a"}
+{"time":"2025-10-22T12:21:22.475122341Z","level":"INFO","msg":"stream: closed","id":"82xiow2a"}

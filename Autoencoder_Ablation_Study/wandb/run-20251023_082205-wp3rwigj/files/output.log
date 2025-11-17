@@ -1,0 +1,23 @@
+Epoch 1/20:   0%|                                                                                | 0/46 [00:00<?, ?it/s]/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/samples_loss.py:253: UserWarning: The 'multiscale' backend do not support batchsize > 1. Using 'tensorized' instead: beware of memory overflows!
+  "The 'multiscale' backend do not support batchsize > 1. "
+Epoch 1/20:   0%|                                                                                | 0/46 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 592, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 571, in main
+    loss, terms = loss_fn(fused, mri, pet, mask, edge_pred)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "train_YCbCr_Outside_penalty.py", line 443, in forward
+    L_transport = self.sinkhorn(y_masked, pet_masked).mean()
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/samples_loss.py", line 283, in forward
+    verbose=self.verbose,
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/sinkhorn_samples.py", line 180, in sinkhorn_tensorized
+    C_xy = cost(x, y.detach())  # (B,N,M) torch Tensor
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/sinkhorn_samples.py", line 29, in <lambda>
+    2: (lambda x, y: squared_distances(x, y) / 2),
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/geomloss/utils.py", line 55, in squared_distances
+    return D_xx - 2 * D_xy + D_yy
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 16.00 GiB (GPU 0; 23.46 GiB total capacity; 17.25 GiB already allocated; 5.92 GiB free; 17.28 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

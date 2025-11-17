@@ -1,0 +1,19 @@
+{"time":"2025-10-23T08:22:05.676827971Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-10-23T08:22:05.676841896Z","level":"INFO","msg":"created symlink","path":"/home/yasir/Summer_Research/Autoencoder_Ablation_Study/wandb/run-20251023_082205-wp3rwigj/logs/debug-core.log"}
+{"time":"2025-10-23T08:22:05.889909164Z","level":"INFO","msg":"created new stream","id":"wp3rwigj"}
+{"time":"2025-10-23T08:22:05.889936231Z","level":"INFO","msg":"stream: started","id":"wp3rwigj"}
+{"time":"2025-10-23T08:22:05.890021528Z","level":"INFO","msg":"sender: started","stream_id":"wp3rwigj"}
+{"time":"2025-10-23T08:22:05.890021553Z","level":"INFO","msg":"writer: Do: started","stream_id":"wp3rwigj"}
+{"time":"2025-10-23T08:22:05.890085651Z","level":"INFO","msg":"handler: started","stream_id":"wp3rwigj"}
+{"time":"2025-10-23T08:22:06.309831603Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-23T08:22:09.762892983Z","level":"INFO","msg":"stream: closing","id":"wp3rwigj"}
+{"time":"2025-10-23T08:22:09.762932245Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-23T08:22:09.763611404Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-23T08:22:09.987374429Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-10-23T08:22:09.987402073Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-10-23T08:22:09.987407586Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-10-23T08:22:11.095512542Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-23T08:22:11.369505245Z","level":"INFO","msg":"handler: closed","stream_id":"wp3rwigj"}
+{"time":"2025-10-23T08:22:11.369563367Z","level":"INFO","msg":"writer: Close: closed","stream_id":"wp3rwigj"}
+{"time":"2025-10-23T08:22:11.369576879Z","level":"INFO","msg":"sender: closed","stream_id":"wp3rwigj"}
+{"time":"2025-10-23T08:22:11.369725694Z","level":"INFO","msg":"stream: closed","id":"wp3rwigj"}

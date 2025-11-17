@@ -1,0 +1,11 @@
+Epoch 1/20:  43%|█████████████▉                  | 20/46 [00:45<00:58,  2.25s/it, grad=0.225, loss=0.2286, ssim_m=0.597]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 447, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 427, in main
+    scaler.scale(loss).backward()
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/_tensor.py", line 489, in backward
+    self, gradient, retain_graph, create_graph, inputs=inputs
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/autograd/__init__.py", line 199, in backward
+    allow_unreachable=True, accumulate_grad=True)  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 100.00 MiB (GPU 0; 10.57 GiB total capacity; 1.35 GiB already allocated; 88.50 MiB free; 1.74 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

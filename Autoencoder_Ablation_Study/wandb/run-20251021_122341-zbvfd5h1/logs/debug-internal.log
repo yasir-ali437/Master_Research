@@ -1,0 +1,19 @@
+{"time":"2025-10-21T12:23:41.710820085Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-10-21T12:23:41.710842984Z","level":"INFO","msg":"created symlink","path":"/home/yasir/Summer_Research/Autoencoder_Ablation_Study/wandb/run-20251021_122341-zbvfd5h1/logs/debug-core.log"}
+{"time":"2025-10-21T12:23:41.92901478Z","level":"INFO","msg":"created new stream","id":"zbvfd5h1"}
+{"time":"2025-10-21T12:23:41.929057007Z","level":"INFO","msg":"stream: started","id":"zbvfd5h1"}
+{"time":"2025-10-21T12:23:41.929120463Z","level":"INFO","msg":"handler: started","stream_id":"zbvfd5h1"}
+{"time":"2025-10-21T12:23:41.929137049Z","level":"INFO","msg":"sender: started","stream_id":"zbvfd5h1"}
+{"time":"2025-10-21T12:23:41.929131131Z","level":"INFO","msg":"writer: Do: started","stream_id":"zbvfd5h1"}
+{"time":"2025-10-21T12:23:42.334289333Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-21T12:26:04.870542876Z","level":"INFO","msg":"stream: closing","id":"zbvfd5h1"}
+{"time":"2025-10-21T12:26:04.870598605Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-21T12:26:04.871457009Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-21T12:26:05.065678782Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-10-21T12:26:05.065697443Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-10-21T12:26:05.06570383Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-10-21T12:26:06.123269508Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-21T12:26:06.396711299Z","level":"INFO","msg":"handler: closed","stream_id":"zbvfd5h1"}
+{"time":"2025-10-21T12:26:06.396767686Z","level":"INFO","msg":"writer: Close: closed","stream_id":"zbvfd5h1"}
+{"time":"2025-10-21T12:26:06.396778291Z","level":"INFO","msg":"sender: closed","stream_id":"zbvfd5h1"}
+{"time":"2025-10-21T12:26:06.396865118Z","level":"INFO","msg":"stream: closed","id":"zbvfd5h1"}

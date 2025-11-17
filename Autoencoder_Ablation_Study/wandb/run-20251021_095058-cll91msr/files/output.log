@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 541, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 496, in main
+    model = Fusion_net(input_nc=3, output_nc=1).to(args.device)
+TypeError: __init__() got an unexpected keyword argument 'input_nc'

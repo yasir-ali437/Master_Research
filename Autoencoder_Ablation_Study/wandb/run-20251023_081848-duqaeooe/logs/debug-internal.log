@@ -1,0 +1,19 @@
+{"time":"2025-10-23T08:18:48.544970021Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-10-23T08:18:48.544993837Z","level":"INFO","msg":"created symlink","path":"/home/yasir/Summer_Research/Autoencoder_Ablation_Study/wandb/run-20251023_081848-duqaeooe/logs/debug-core.log"}
+{"time":"2025-10-23T08:18:48.769517093Z","level":"INFO","msg":"created new stream","id":"duqaeooe"}
+{"time":"2025-10-23T08:18:48.769572693Z","level":"INFO","msg":"stream: started","id":"duqaeooe"}
+{"time":"2025-10-23T08:18:48.769602133Z","level":"INFO","msg":"writer: Do: started","stream_id":"duqaeooe"}
+{"time":"2025-10-23T08:18:48.769674978Z","level":"INFO","msg":"handler: started","stream_id":"duqaeooe"}
+{"time":"2025-10-23T08:18:48.769705897Z","level":"INFO","msg":"sender: started","stream_id":"duqaeooe"}
+{"time":"2025-10-23T08:18:49.148776951Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-23T08:19:04.637561391Z","level":"INFO","msg":"stream: closing","id":"duqaeooe"}
+{"time":"2025-10-23T08:19:04.637592701Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-23T08:19:04.638175479Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-23T08:19:04.831168848Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-10-23T08:19:04.831188209Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-10-23T08:19:04.831194786Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-10-23T08:19:05.488038592Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-23T08:19:05.755082055Z","level":"INFO","msg":"handler: closed","stream_id":"duqaeooe"}
+{"time":"2025-10-23T08:19:05.755141436Z","level":"INFO","msg":"sender: closed","stream_id":"duqaeooe"}
+{"time":"2025-10-23T08:19:05.755131682Z","level":"INFO","msg":"writer: Close: closed","stream_id":"duqaeooe"}
+{"time":"2025-10-23T08:19:05.755224966Z","level":"INFO","msg":"stream: closed","id":"duqaeooe"}

@@ -1,0 +1,12 @@
+Epoch 1/20:   0%|                                                                                | 0/46 [00:02<?, ?it/s]
+LOSS of Trasnport: 0.1774449646472931  | Intensity Preservation Loss: 0.012563093565404415
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 555, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 534, in main
+    loss, terms = loss_fn(fused, mri, pet, mask, edge_pred)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "train_YCbCr_Outside_penalty.py", line 447, in forward
+    smoothed_fused = gaussian_smooth(y)
+NameError: name 'gaussian_smooth' is not defined

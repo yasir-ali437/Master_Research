@@ -1,0 +1,19 @@
+{"time":"2025-10-20T09:10:40.807445682Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-10-20T09:10:40.807462804Z","level":"INFO","msg":"created symlink","path":"/home/yasir/Summer_Research/Autoencoder_EdgeGuided_ModuleWise_NOT_Latest/wandb/run-20251020_091040-e4cgo4tp/logs/debug-core.log"}
+{"time":"2025-10-20T09:10:41.133057407Z","level":"INFO","msg":"created new stream","id":"e4cgo4tp"}
+{"time":"2025-10-20T09:10:41.133142412Z","level":"INFO","msg":"stream: started","id":"e4cgo4tp"}
+{"time":"2025-10-20T09:10:41.133194149Z","level":"INFO","msg":"handler: started","stream_id":"e4cgo4tp"}
+{"time":"2025-10-20T09:10:41.133197052Z","level":"INFO","msg":"writer: Do: started","stream_id":"e4cgo4tp"}
+{"time":"2025-10-20T09:10:41.133192417Z","level":"INFO","msg":"sender: started","stream_id":"e4cgo4tp"}
+{"time":"2025-10-20T09:10:41.568333711Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-10-20T09:13:37.044797921Z","level":"INFO","msg":"stream: closing","id":"e4cgo4tp"}
+{"time":"2025-10-20T09:13:37.044837357Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-10-20T09:13:37.073814429Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-10-20T09:13:37.289687472Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-10-20T09:13:37.289724824Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-10-20T09:13:37.289731501Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-10-20T09:13:37.911498103Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-20T09:13:38.209207955Z","level":"INFO","msg":"handler: closed","stream_id":"e4cgo4tp"}
+{"time":"2025-10-20T09:13:38.209243506Z","level":"INFO","msg":"sender: closed","stream_id":"e4cgo4tp"}
+{"time":"2025-10-20T09:13:38.209236837Z","level":"INFO","msg":"writer: Close: closed","stream_id":"e4cgo4tp"}
+{"time":"2025-10-20T09:13:38.209341924Z","level":"INFO","msg":"stream: closed","id":"e4cgo4tp"}

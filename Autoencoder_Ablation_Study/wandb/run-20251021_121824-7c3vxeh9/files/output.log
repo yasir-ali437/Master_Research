@@ -1,0 +1,11 @@
+Epoch 1/20:   0%|                                                                                | 0/46 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 552, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 531, in main
+    loss, terms = loss_fn(fused, mri, pet, mask, edge_pred)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "train_YCbCr_Outside_penalty.py", line 445, in forward
+    ot_loss, w_est, gp_val = ot_dual_loss(self.potential, pet_in, y_in)
+NameError: name 'ot_dual_loss' is not defined

@@ -1,0 +1,24 @@
+Epoch 1/20: 100%|████████████████████████████████| 46/46 [00:55<00:00,  1.20s/it, grad=0.208, loss=0.2390, ssim_m=0.716]
+Epoch 2/20: 100%|████████████████████████████████| 46/46 [00:49<00:00,  1.07s/it, grad=0.212, loss=0.1457, ssim_m=0.796]
+Epoch 3/20: 100%|████████████████████████████████| 46/46 [00:49<00:00,  1.07s/it, grad=0.224, loss=0.1192, ssim_m=0.825]
+Epoch 4/20: 100%|████████████████████████████████| 46/46 [00:49<00:00,  1.07s/it, grad=0.196, loss=0.1121, ssim_m=0.806]
+Epoch 5/20: 100%|████████████████████████████████| 46/46 [00:49<00:00,  1.07s/it, grad=0.212, loss=0.1057, ssim_m=0.762]
+Epoch 6/20: 100%|████████████████████████████████| 46/46 [00:48<00:00,  1.06s/it, grad=0.212, loss=0.0970, ssim_m=0.804]
+Epoch 7/20: 100%|████████████████████████████████| 46/46 [00:55<00:00,  1.20s/it, grad=0.215, loss=0.0901, ssim_m=0.795]
+Epoch 8/20: 100%|████████████████████████████████| 46/46 [00:50<00:00,  1.11s/it, grad=0.211, loss=0.0857, ssim_m=0.793]
+Epoch 9/20: 100%|████████████████████████████████| 46/46 [00:49<00:00,  1.07s/it, grad=0.228, loss=0.0817, ssim_m=0.796]
+Epoch 10/20:  15%|████▊                           | 7/46 [00:08<00:48,  1.25s/it, grad=0.220, loss=0.0836, ssim_m=0.802]
+Traceback (most recent call last):
+  File "train_YCbCr_Outside_penalty.py", line 513, in <module>
+    main()
+  File "train_YCbCr_Outside_penalty.py", line 492, in main
+    loss, terms = loss_fn(fused, mri, pet, mask, edge_pred, epoch)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "train_YCbCr_Outside_penalty.py", line 386, in forward
+    L_ssim += 1 - ssim(y[i:i+1]*mask[i:i+1], mri_i_rgb*mask[i:i+1], data_range=1.0)
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/piq/ssim.py", line 53, in ssim
+    _validate_input([x, y], dim_range=(4, 5), data_range=(0, data_range))
+  File "/data1/yasir/envs/tensor/lib/python3.7/site-packages/piq/utils/common.py", line 100, in _validate_input
+    assert data_range[0] <= t.min(), \
+KeyboardInterrupt
