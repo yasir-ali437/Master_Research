@@ -4,52 +4,17 @@ import torch.nn.functional as F
 from typing import List
 
 # ----------------------------
-# Edge Extraction (same as before)
-# ----------------------------
-class EdgeExtractor(nn.Module):
-    def __init__(self):
-        super().__init__()
-        kx = torch.tensor([[1., 0., -1.],
-                           [2., 0., -2.],
-                           [1., 0., -1.]], dtype=torch.float32).view(1, 1, 3, 3)
-        ky = torch.tensor([[1., 2., 1.],
-                           [0., 0., 0.],
-                           [-1., -2., -1.]], dtype=torch.float32).view(1, 1, 3, 3)
-        self.register_buffer("sobel_kx", kx)
-        self.register_buffer("sobel_ky", ky)
-
-    def forward(self, x_1ch):
-        gx = F.conv2d(x_1ch, self.sobel_kx, padding=1)
-        gy = F.conv2d(x_1ch, self.sobel_ky, padding=1)
-        mag = torch.sqrt(gx * gx + gy * gy + 1e-6)
-        mag = mag / mag.amax(dim=(2, 3), keepdim=True).clamp_min(1e-6)
-        return mag.clamp(0.0, 1.0)
-
-# ----------------------------
-# Edge-Guided Attention (same)
-# ----------------------------
-class EdgeGuidedAttention(nn.Module):
-    def __init__(self, in_channels):
-        super().__init__()
-        self.proj = nn.Conv2d(1, in_channels, 1)
-        self.gamma = nn.Parameter(torch.tensor(0.5))
-
-    def forward(self, feat, edge):
-        att = torch.sigmoid(self.proj(edge))
-        return feat * (1.0 + self.gamma * att)
-
-# ----------------------------
 # Encoder (adds mask channel)
 # ----------------------------
 class FusionEncoder(nn.Module):
-    def __init__(self, input_nc=2, base_ch=32, base_ch2=64):
+    def __init__(self, input_nc=4, base_ch=32, base_ch2=64):
         """
-        input_nc: MRI (1) + PET (1) + Mask (1)
+        input_nc: PET (3) + Mask (1)
         """
         super().__init__()
         self.conv1 = nn.Sequential(
             nn.ReflectionPad2d(1),
-            nn.Conv2d(input_nc + 1, base_ch, 3, 1),
+            nn.Conv2d(input_nc , base_ch, 3, 1),
             nn.ReLU(inplace=True)
         )
         self.conv2 = nn.Sequential(
@@ -78,15 +43,9 @@ class FusionEncoder(nn.Module):
             nn.ReLU(inplace=True)
         )
 
-        self.att1 = EdgeGuidedAttention(base_ch)
-        self.att2 = EdgeGuidedAttention(base_ch)
-
-    def forward(self, x_2ch, edge):
-        x0 = torch.cat([x_2ch, edge], dim=1)
-        G11 = self.att1(self.conv1(x0), edge)
-        G21 = self.att2(self.conv2(G11), edge)
-        # G11 = self.conv1(x_3ch)
-        # G21 = self.conv2(G11)
+    def forward(self, x_4ch):
+        G11 = self.conv1(x_4ch)
+        G21 = self.conv2(G11)
         G31 = self.conv3(torch.cat([G11, G21], 1))
         G41 = self.conv4(G31)
         G51 = self.conv5(torch.cat([G31, G41], 1))
@@ -126,16 +85,14 @@ class FusionDecoder(nn.Module):
 # ----------------------------
 # FusionNet (Top-level)
 # ----------------------------
-class Fusion_Net(nn.Module):
+class Transport_Net(nn.Module):
     def __init__(self, base_ch=32, base_ch2=64):
         super().__init__()
-        self.edge_extractor = EdgeExtractor()
-        self.encoder = FusionEncoder(input_nc=2, base_ch=base_ch, base_ch2=base_ch2)
+        self.encoder = FusionEncoder(input_nc=4, base_ch=base_ch, base_ch2=base_ch2)
         self.decoder = FusionDecoder(base_ch=base_ch, base_ch2=base_ch2)
 
-    def forward(self, mri, pet):
-        edge = self.edge_extractor(mri)
-        x_2ch = torch.cat([mri, pet], dim=1)
-        feats = self.encoder(x_2ch, edge)
+    def forward(self, pet, mask):
+        x_4ch = torch.cat([pet, mask], dim=1)
+        feats = self.encoder(x_4ch)
         fused, edge_pred = self.decoder(feats)
         return fused, edge_pred
